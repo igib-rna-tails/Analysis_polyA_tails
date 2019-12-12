@@ -21,7 +21,7 @@ The **main aim** is the detection and analysis of 3' tails of mRNA.
     10. Use bedtools closest to find the genes where the reads were mapped.
     11. Make the analysis of the extracted tails.
 
-# Prepare new folders in your local directory
+## Prepare new folders in your local directory
 We will create the temporary files and plots. We have to create folder system to keep order
 
 > mkdir data
@@ -62,9 +62,7 @@ In order to run locally:
 > conda install -c anaconda openjdk
 > 
 > jupyter-notebook
-
-### Deactivate the environment after work
-
+> 
 > conda deactivate rnatails
 
 # Make the environment for IGV
