@@ -24,11 +24,11 @@ The **main aim** is the detection and analysis of 3' tails of mRNA.
 # Prepare new folders in your local directory
 We will create the temporary files and plots. We have to create folder system to keep order
 
-mkdir data
-mkdir plots
-mkdir processing_data
-mkdir reference
-mkdir summary_file  
+> mkdir data
+> mkdir plots
+> mkdir processing_data
+> mkdir reference
+> mkdir summary_file  
   
 ## Prepare the data and file with annotations (references)
 1. Save the raw data (in fasta/ fastq/ bam) in file 'data'. 
