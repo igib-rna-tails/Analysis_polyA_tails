@@ -25,9 +25,13 @@ The **main aim** is the detection and analysis of 3' tails of mRNA.
 We will create the temporary files and plots. We have to create folder system to keep order
 
 > mkdir data
+> 
 > mkdir plots
+> 
 > mkdir processing_data
+> 
 > mkdir reference
+> 
 > mkdir summary_file  
   
 ## Prepare the data and file with annotations (references)
@@ -38,23 +42,33 @@ We will create the temporary files and plots. We have to create folder system to
 ## Prepare the new environment with dependencies
 In order to run locally:
     
-conda create --name rnatails python=3.7
-conda activate rnatails
+> conda create --name rnatails python=3.7
+> 
+> conda activate rnatails
 
-conda install -c bioconda seqkit fastqc je-suite HISAT2 samtools bedops rseqc htseq cutadapt
-pip install numpy==1.17.3
-pip install matplotlib==3.0.3
-pip install opencv-python-headless
-pip install scikit-bio
-conda install jupyter
-conda install -c anaconda openjdk
-jupyter-notebook
+> conda install -c bioconda seqkit fastqc je-suite HISAT2 samtools bedops rseqc htseq cutadapt
+> 
+> pip install numpy==1.17.3
+> 
+> pip install matplotlib==3.0.3
+> 
+> pip install opencv-python-headless
+> 
+> pip install scikit-bio
+> 
+> 
+> conda install jupyter
+> 
+> conda install -c anaconda openjdk
+> 
+> jupyter-notebook
 
 ### Deactivate the environment after work
 
-conda deactivate rnatails
+> conda deactivate rnatails
 
 # Make the environment for IGV
-conda create --name igv python==3.7
-conda activate igv
-conda install -c bioconda igv
+> conda create --name igv python==3.7
+> conda activate igv
+> conda install -c bioconda igv
+> conda deactivate igv
