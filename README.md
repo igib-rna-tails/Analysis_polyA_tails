@@ -69,6 +69,9 @@ In order to run locally:
 
 # Make the environment for IGV
 > conda create --name igv python==3.7
+> 
 > conda activate igv
+> 
 > conda install -c bioconda igv
+> 
 > conda deactivate igv
